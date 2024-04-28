@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyam Shrestha</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    
+    <!-- Dark mode Toggle -->
+    <input type="checkbox" id="dark-mode"/>
+    <label for="dark-mode" class="dark-mode-toggle">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+    </label>
+
+    <!-- ----------------- -->
+    <header>
+        <!-- NavBar -->
+        <nav>
+            <div class="flex-container navbar">
+                <div class="flex-container logo-container">
+                    <div class="logo-title">Shyam Shrestha</div>
+                    <div class="logo-line">|</div>
+                    <div class="logo-post">Software Engineer</div>
+                </div>
+                <ul class="flex-container nav-items">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                        <li><a href="#projects">projects</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                </ul>
+                <!-- Hamburger menu -->
+                
+                <label for="ham-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="ham-menu">
+                <div class="side-menu">
+                    <ul class="flex-container side-nav-items">
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Skills">Skills</a></li>
+                        <li><a href="#projects">projects</a></li>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                </ul>
+                </div>
+                <!-- --------------  -->
+            </div>
+        </nav>
+    </header> 
+    <!--  - - - - -  -->
+    <div class="wrapper-container">
+        <!-- Hero Section -->
+        <section id="Home">
+            <div class="grid-container hero-section">
+                <div class="intro-text">
+                    <p>Hi I am <b>Shyam Shrestha</b></p>
+                    <p><b>Software Engineer</b></p>
+                    <br>
+                    <p>I love Coding!</p>
+                    <br>
+                    <br>
+                    <a href="Assets/Resume.pdf" download>
+                        <button class="download-btn">
+                            Download Resume 
+                            <i class="fa-solid fa-download"></i>
+                        </button>
+                    </a>
+                    
+                </div>
+                <div class="image-grid-item">
+                    <img src="Assets/profile_image.png" alt="profile image">
+                </div>
+            </div>
+        </section>
+        <!-- ------------ -->
+        <!-- Summary section -->
+        <section id="Summary">
+            <div class="flex-container summary-container">
+                <div class="flex-container">
+                    <i class="fa-solid fa-award"></i>
+                    <div>
+                        <span>IT</span>
+                        <p>Graduate</p>
+                    </div>
+                </div>
+            <div class="summary-line">|</div>
+            <div class="flex-container border-horizontal">
+                    <i class="fa-solid fa-award"></i>
+                    <div>
+                        <span>5+ Project</span>
+                        <p>Completed</p>
+                    </div>
+            </div>
+            <div class="summary-line">|</div>
+
+            <div class="flex-container">
+                    <i class="fa-solid fa-award"></i>
+                    <div>
+                        <span>1 Year</span>
+                        <p>Experience</p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <!-- --------------- -->
+
+        <!-- Skills Secstion -->
+        <section id="Skills">
+            <div class="flex-container skills-container">
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <p>JS</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-github"></i>
+                    <p>GitHub</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <p>Figma</p>
+                </div>
+            </div>
+        </section>
+        <!-- --------------- -->
+
+        <!-- My recent work section -->
+        <section id="Projects">
+            <center><h2>My Recent Works</h2></center>
+            <div class="flex-container">
+                <!-- Recent work card 1 -->
+                <div class="recent-work-card">
+                    <div class="card-image">
+                        <img src="Assets/Project_image.png" alt="projectimage">
+                    </div>
+
+                    <div class="card-icon">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-chrome"></i>
+                    </div>
+
+                    <h4>Personal Portfolio</h4>
+                    <p>HTML | CSS</p>
+                </div>
+                <!-- Recent work card 2 -->
+                <div class="recent-work-card">
+                    <div class="card-image">
+                        <img src="Assets/Project_image.png" alt="projectimage">
+                    </div>
+
+                    <div class="card-icon">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-chrome"></i>
+                    </div>
+
+                    <h4>Personal Portfolio</h4>
+                    <p>HTML | CSS</p>
+                </div>
+                <!-- Recent work card 3-->
+                <div class="recent-work-card">
+                    <div class="card-image">
+                        <img src="Assets/Project_image.png" alt="projectimage">
+                    </div>
+
+                    <div class="card-icon">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-chrome"></i>
+                    </div>
+
+                    <h4>Personal Portfolio</h4>
+                    <p>HTML | CSS</p>
+                </div>
+                <!-- Recent work card 4 -->
+                <div class="recent-work-card">
+                    <div class="card-image">
+                        <img src="Assets/Project_image.png" alt="projectimage">
+                    </div>
+
+                    <div class="card-icon">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-chrome"></i>
+                    </div>
+
+                    <h4>Personal Portfolio</h4>
+                    <p>HTML | CSS</p>
+                </div>
+                <!-- Recent work card 5 -->
+                <div class="recent-work-card">
+                    <div class="card-image">
+                        <img src="Assets/Project_image.png" alt="projectimage">
+                    </div>
+
+                    <div class="card-icon">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-chrome"></i>
+                    </div>
+
+                    <h4>Personal Portfolio</h4>
+                    <p>HTML | CSS</p>
+                </div>
+                <!-- Recent work card 6 -->
+                <div class="recent-work-card">
+                    <div class="card-image">
+                        <img src="Assets/Project_image.png" alt="projectimage">
+                    </div>
+
+                    <div class="card-icon">
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-chrome"></i>
+                    </div>
+
+                    <h4>Personal Portfolio</h4>
+                    <p>HTML | CSS</p>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------------- -->
+        <!-- About me Section -->
+        <section id="About" class="about-me-section">
+            <center><h2>About Me</h2></center>
+            <div class="flex-container about-me-container">
+                <div class="about-me-img">
+                    <img src="Assets/Profile_image.png" alt="Profile_image">
+                </div>
+                <div class="about-me-p">
+                    <h2>Shyam Shrestha</h2>
+                    <p>I am a highly motivated Computer engineering professional with two years of experience in developing and 
+                        maintaining user-friendly websites and applications. Proficient in Networking, C#, .Net framework, HTML, CSS, 
+                        JavaScript, and front-end frameworks. Possesses excellent communication skills, works well in a team, and is 
+                        committed to delivering high-quality work.
+                    </p>
+                    <div class="about-me-interest">
+                        <h2>Interest</h2>
+                        <div class="flex-container interest">
+                            <h4>Coding</h4>
+                            <h4>Football</h4>
+                            <h4>Movies</h4>    
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </section>
+        <!-- ----------------- -->
+
+        <!-- Get in touch -->
+        <section>
+            <div class="get-in-touch">
+                <h3>Get In Touch</h3>
+                <div class=" flex-container get-in-touch-icons">
+                    <div>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div> 
+                    <div>
+                        <i class="fa-brands fa-github"></i>
+                    </div> 
+                    <div>
+                        <i class="fa-brands fa-facebook"></i>
+                    </div> 
+                    <div>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>             
+                </div>
+                <h3>OR</h3>
+                <div>
+                    <button class="email-btn">
+                        shyamshrestha1003@gmail.com
+                        <a href="mailto: shyamshrestha1003@gmail.com">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>                   
+                    </button>                  
+                </div>
+            </div>   
+        </section>
+        <!-- ------------- -->
+        
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="footer">
+                <div class="footer-links flex-container">
+                    <div class="links">
+                        <h3>Links</h3>
+                        <ul>
+                            <li>Home</li>
+                            <li>Skills</li>
+                            <li>Projects</li>
+                            <li>contact</li>
+                        </ul>
+                    </div>
+                    <div class="social-links">
+                        <h3>Social Links</h3>
+                        <ul>
+                            <li>Linkedin</li>
+                            <li>GitHub</li>
+                            <li>Facebook</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <h3>
+                    <i class="fa-sharp fa-regular fa-copyright"></i>
+                    Copy right all reserved. Made  by Me.
+                </h3>
+            </div>
+        </footer>
+         <!-- -------- -->
+         <!-- goto top section -->
+        <a href="#">
+            <i class="to-top fa-sharp fa-solid fa-arrow-up"></i>
+        </a>
+        <!-- ------------------ -->
+               
+    </div>   
+</body>
+</html>
